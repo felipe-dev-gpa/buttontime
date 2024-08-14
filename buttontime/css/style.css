@@ -1,0 +1,478 @@
+/* CONFIGURAÇÕES GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none !important;
+  color: unset !important;
+}
+.esconder {
+  display: none;
+}
+/** QUERO EXPERIMENTAR **/
+.btn-experimentar {
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: transparent;
+  background-image: linear-gradient(140deg, #74be33 0%, #499c00 100%);
+  border-style: solid;
+  border-width: 0px 0px 4px 0px;
+  border-color: #3c6442;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 2px 5px 0px rgb(0 0 0 / 26%);
+  padding: 30px 30px 30px 30px;
+
+  color: white;
+}
+/** RETIRA O SUBLINHADO DOS LINKS **/
+a,
+a:active,
+a:hover,
+a:visited {
+  color: unset !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none !important;
+}
+/** PARA DEIXAR AS IMAGENS DOS KITS CLICÁVEIS **/
+.link {
+  cursor: pointer;
+}
+/* HEADER */
+header{
+  background-color: #a70c0c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header h2{
+  color: #fff;
+  font-weight: 300;
+  font-size: clamp(25px,3vw,32px);
+  line-height: clamp(25px,3vw,32px);
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+marquee{
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 2.5px;
+  background-color: #810505;
+  font-family: 'Open Sans', sans-serif;
+}
+/* VÍDEO */
+.video{
+  padding-top: clamp(20px,4vw,46px);
+  padding-bottom: clamp(20px,4vw,46px);
+}
+.video h2{
+  color: #000;
+    font-size: clamp(24px,4vw,42px);
+    font-weight: 700;
+    line-height: clamp(20px,4vw,49px);
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+.autor{
+  color: #000;
+  font-family: "Open Sans",Sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: clamp(14px,3vw,16px);
+}
+.atualizado{
+    font-weight: 400;
+    color: #54595F;
+    line-height: 1.5;
+    font-size: clamp(12px,3vw,16px);
+    margin-bottom: 20px;
+}
+/** OFERTA ESPECIAL **/
+.oferta-especial {
+  background-color: #db0000;
+}
+.oferta-especial h1 {
+  color: #f7ff00;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 1;
+}
+.oferta-especial p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+/** KITS **/
+.kit-head{
+  background-color: #f2f2f2;
+}
+.kit {
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #005926;
+  box-shadow: 1px 2px 3px 0px rgb(0 0 0 / 19%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.off {
+  background-color: #005926;
+  padding: 3px 12px;
+}
+.off span {
+  column-gap: 0px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+.quantidade {
+  background-color: #f2f2f2;
+  align-self: center;
+}
+.quantidade span {
+  color: #005926;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px 0px 0px 20px;
+}
+.frete {
+  width: 35%;
+}
+.frasco {
+  width: 25%;
+}
+.frasco3 {
+  width: 65%;
+}
+.kits p {
+  text-align: center;
+  color: #2d2d2d;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+hr {
+  border-top: 1px solid #000;
+  width: 80%;
+}
+.preco {
+  color: #2d2d2d;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.valor s {
+  color: #ff0000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding-right: 20px;
+}
+.kits h6 {
+  text-align: center;
+  color: #2d2d2d;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.valor-final {
+  text-align: center;
+  color: #005926;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+.comprar-agora {
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  background-image: linear-gradient(140deg, #74be33 0%, #499c00 100%);
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 1px 2px 5px 0px rgb(0 0 0 / 26%);
+  padding: 30px 30px 30px 30px;
+  color: white;
+  line-height: 1;
+}
+.kit-cor {
+  border-color: #f5be00 !important;
+}
+.kit-cor .off {
+  background-color: #f5be00 !important;
+}
+.kit-cor .quantidade,
+.kit-cor .valor-final {
+  color: #f5be00 !important;
+}
+.mais-vendido {
+  width: 52%;
+}
+.frasco5 {
+  width: 85%;
+}
+.selo-compra {
+  width: 64%;
+}
+.pix {
+  width: 9%;
+}
+/** GARANTIA **/
+.garantia {
+  background-color: #e6ffea;
+}
+.garantia h1 {
+  color: #005926;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: clamp(28px, 3vw, 35px);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.garantia p,
+.garantia b {
+  color: #005926;
+  font-family: "Montserrat", Sans-serif;
+  line-height: 1.5;
+  font-size: clamp(15px, 3vw, 16px);
+}
+.garantia img {
+  width: 60%;
+}
+/** PERGUNTAS FREQUENTES **/
+.perguntas-frequentes {
+  background-image: radial-gradient(at center center, #48b59d 0%, #005926 100%);
+}
+.perguntas-frequentes h1 {
+  color: #ffffff;
+  font-family: "Libre Franklin", Sans-serif;
+  font-size: clamp(32px, 3vw, 42px);
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+#accordion {
+  border-width: 0px;
+  border-color: rgba(21, 21, 21, 0);
+  border-radius: 0;
+}
+.btn-link {
+  padding: 0;
+}
+.btn-link:hover,
+.btn-link:visited,
+.btn-link:active,
+.btn-link:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+#accordion h6:active,
+#accordion h6:focus,
+#accordion h6:visited,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:visited {
+  color: #d6bf82 !important;
+}
+#accordion h6 {
+  font-family: "Poppins", Sans-serif;
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.1px;
+  color: #005926;
+  margin-bottom: 0;
+
+  text-align: left;
+}
+#accordion p,
+#accordion span {
+  border-width: 0px;
+  border-bottom-color: rgba(21, 21, 21, 0);
+  color: #005926;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+.btn-link.collapsed:after {
+  content: "\f0da";
+  color: #005926;
+}
+
+.btn-link:after {
+  content: "\f0d8";
+  width: 30px;
+  font-size: 16px;
+  right: 5px;
+  top: 15px;
+  position: absolute;
+  color: #d6bf82;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.card {
+  border-color: rgba(21, 21, 21, 0);
+  background-color: #fcfcfc;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+.card-body {
+  background-color: #f2f2f2;
+}
+.card-header {
+  border-bottom: 0;
+}
+/* COMENTÁRIOS */
+.comentarios{
+  padding-top: clamp(20px,3vw,32px);
+  padding-bottom: clamp(20px,3vw,32px);
+}
+.comentarios h4{
+  color: #686868;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.divisor{
+  height: 1px;
+  background-color: #CFCFCF;
+}
+.box-comentario img{
+  flex-shrink: 0;
+  border-radius: 50px;
+  width: 56px;
+  height: 56px;
+}
+.texto{
+  padding: 8px 8px 3px 8px;
+    background-color: #f6f6f6;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+}
+.comentarios p{
+  color: #454545;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1em;
+  margin-bottom: 0;
+}
+.azul{
+  color: #365899;
+}
+.hora{
+  color: #365899;
+  font-size: 12px;
+  font-weight: 400;
+}
+.botoes-acoes{
+    font-size: 12px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+.botoes-acoes img{
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.aceita{
+  color: #7A7A7A;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+.face img{
+  width: 22px;
+  height: 22px;
+  border-radius: 2px 2px 2px 2px;
+  flex-shrink: 0;
+}
+.face span{
+  color: #7A7A7A;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+}
+/* FOOTER */
+footer{
+  background-color: #a70c0c;
+  padding-top: clamp(24px,4vw,40px);
+  padding-bottom: clamp(24px,4vw,40px);
+}
+footer p{
+  color: #fff;
+  font-weight: 500;
+  font-size: clamp(14px,3vw,16px);
+  line-height: 1.5;
+}
+.copyright{
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (max-width: 767px) {
+  /** QUERO EXPERIMENTAR **/
+  .btn-experimentar {
+    border-width: 0px 0px 5px 0px;
+    line-height: 1;
+    text-align: center;
+  }
+  /** KITS **/
+  .kit {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .kit p {
+    font-size: 14px;
+  }
+  .selo-compra {
+    width: 100%;
+  }
+  .pix {
+    width: 28%;
+  }
+  /** GARANTIA **/
+  .garantia p {
+    line-height: 1.66;
+  }
+}
